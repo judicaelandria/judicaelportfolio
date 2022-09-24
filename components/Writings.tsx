@@ -24,6 +24,7 @@ export const WritingItem = ({ title, desc, link }: ItemProps) => {
     <a
       href={link}
       target="_blank"
+      rel="noopener noreferrer"
       className="flex flex-col gap-2 cursor-pointer duration-300 opacity-70 hover:opacity-100 transition-all"
     >
       <h3 className="text-sm text-text-color-light dark:text-text-color-dark">
