@@ -8,8 +8,8 @@ const Home: NextPage = () => {
     <div className="w-full min-h-screen font-inter flex justify-center items-center">
       <SEO />
       <div className="w-full h-full md:max-w-[640px] flex flex-col min-h-screen">
-        <main className="w-full h-full">
-          <div className="space-y-14 mt-56">
+        <main className="w-full h-full px-6 md:px-0">
+          <div className="space-y-14 mt-5 md:mt-56">
             <h1 className="text-3xl text-fg-light dark:text-fg-dark font-medium">
               Judicaël Andriamahandry
             </h1>
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         </main>
-        <footer className="mt-auto border-t-[0.1px] border-t-fg-light/60 dark:border-t-fg-dark/60 py-7">
+        <footer className="mt-auto border-t-[0.1px] border-t-fg-light/60 dark:border-t-fg-dark/60 py-7 px-6 md:px-0">
           <div className="flex items-center gap-5">
             {socials.map(({ link, title }) => (
               <ExternalLink title={title} link={link} key={title} />
