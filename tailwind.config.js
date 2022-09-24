@@ -13,6 +13,7 @@ module.exports = {
         "bg-light": "#fff",
         "fg-light": "#3a3a3a",
         "text-color-light": "#171717",
+        gray: "#a0a0a0",
       },
       fontFamily: {
         inter: ["Inter", "var(--font-fallback)"],
