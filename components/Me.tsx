@@ -9,7 +9,7 @@ export const Me = () => {
       </h1>
       <div className="space-y-6">
         <p className="text-sm text-text-color-light dark:text-text-color-dark leading-7">
-          Hi, I’m Judicaël Andriamahandry, and I love open source. I was core
+          Hi, I’m Judicaël Andriamahandry, and I love open source. I was a core
           team member at{" "}
           <ExternalLink
             title="Tldraw"
