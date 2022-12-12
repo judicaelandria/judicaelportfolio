@@ -9,15 +9,14 @@ export const Me = () => {
       </h1>
       <div className="space-y-6">
         <p className="text-sm text-text-color-light dark:text-text-color-dark leading-7">
-          Hi, I’m Judicaël Andriamahandry, and I love open source. I’m a core
+          Hi, I’m Judicaël Andriamahandry, and I love open source. I was core
           team member at{" "}
           <ExternalLink
             title="Tldraw"
             link="https://github.com/tldraw/tldraw"
             underlined
           />
-          ; And also a frontend engineer at Flydesk, where we're building a
-          solution to help you manage your shared office & hybrid working team.
+          ; (still an active contributor).
         </p>
         <p className="text-sm text-text-color-light dark:text-text-color-dark leading-7">
           I mostly talk about Typescript, Javascript, User Experience, Frontend
