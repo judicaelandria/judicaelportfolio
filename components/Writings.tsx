@@ -9,7 +9,7 @@ interface ItemProps {
 export const Writings = () => {
   return (
     <div className="space-y-5">
-      <h4 className="text-gray text-sm">Writings</h4>
+      <h4 className="text-gray">Writings</h4>
       <div className="space-y-2">
         {writings.map(({ id, link, title, desc }) => (
           <WritingItem title={title} link={link} desc={desc} key={id} />
