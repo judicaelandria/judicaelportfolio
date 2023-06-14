@@ -7,7 +7,7 @@ export default function Home() {
       <div className="grid grid-cols-1 lg:grid-cols-container h-full">
         <section className="bg-header-gradient h-max lg:h-screen backdrop-blur-xl">
           <div className="w-full h-full flex justify-center items-center">
-            <div className="flex flex-col gap-6 px-4 md:px-6 lg:px-12">
+            <div className="flex flex-col gap-6 py-6 lg:py-0 px-4 md:px-6 lg:px-12">
               <h1 className="text-foreground text-4xl font-black">
                 -- About me
               </h1>

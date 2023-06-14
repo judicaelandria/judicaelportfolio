@@ -4,12 +4,14 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./app/**/*.{js,ts,jsx,tsx}",
+    "./ui/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       colors: {
         dark: "#18171C",
         foreground: "#FEFEFF",
+        "accent-0": "#27262B",
         "accent-1": "#A5A3AE",
         "accent-2": "#EAEAEA",
         primary: "#673ED7",

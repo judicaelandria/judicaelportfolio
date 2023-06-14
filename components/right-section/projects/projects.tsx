@@ -5,8 +5,10 @@ const projects = [
   {
     id: v4(),
     src: "https://res.cloudinary.com/judicael/video/upload/v1686736913/projects-video/miro-like.mov",
-    title: "Miro",
+    title: "TLMiro",
     desc: "You know that I’m a huge fan of tldraw, so when the beta version came out I decided to built something with it to try th new api out. I decided to built a lil version of Miro and took me only 2-3 days to built it, yes that how easy it is to create something with tldraw; (You should try it out)",
+    link: "https://miro-like.vercel.app",
+    github: "https://github.com/judicaelandria/miro-like",
   },
   {
     id: v4(),
@@ -25,9 +27,9 @@ const projects = [
 export const Projects = () => {
   return (
     <section className="overflow-y-auto min-h-[80vh] max-h-[90vh]">
-      <div className="space-y-2">
+      <div className="space-y-5">
         <h1 className="text-foreground font-semibold text-xl md:text-h1">
-          Projects that I built
+          Projects that I've built
         </h1>
         <p className="text-accent-2 text-sm md:text-base">
           It’s not all of them, but I’ll keep adding what I did before and what
@@ -35,12 +37,7 @@ export const Projects = () => {
         </p>
       </div>
       {projects.map((project) => (
-        <ProjectCard
-          title={project.title}
-          desc={project.desc}
-          mediaSrc={project.src}
-          key={project.id}
-        />
+        <ProjectCard {...project} key={project.id} />
       ))}
     </section>
   );

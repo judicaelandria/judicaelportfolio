@@ -28,9 +28,10 @@ export const VideoPlayer = ({ src }: PlayerProps) => {
     else playerRef.current?.pause();
     setShowControl(false);
   }, [isPaused]);
+
   return (
     <div
-      className="relative w-full h-auto max-h-96"
+      className="relative w-full h-max"
       onMouseEnter={handleShowControl}
       onMouseLeave={handleShowControl}
     >

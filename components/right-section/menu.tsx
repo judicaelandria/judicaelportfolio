@@ -21,10 +21,14 @@ export const TabMenu = ({ children }: TabMenuProps) => {
   }, [activeTab]);
 
   return (
-    <Tabs.Root defaultValue={activeTab ?? "projects"} orientation="vertical">
+    <Tabs.Root
+      defaultValue={activeTab ?? "projects"}
+      orientation="vertical"
+      className="flex flex-col justify-center items-center lg:items-start"
+    >
       <Tabs.List
         aria-label="tabs"
-        className="flex items-center gap-4 text-foreground"
+        className="flex items-center gap-4 text-foreground py-3 md:py-0"
       >
         {navs.map((nav, id) => (
           <Tabs.Trigger
