@@ -1,10 +1,11 @@
 import Image from "next/image";
+import { RightSection } from "~/components";
 
 export default function Home() {
   return (
     <main className="w-full bg-dark text-foreground min-h-screen">
       <div className="grid grid-cols-1 lg:grid-cols-container h-full">
-        <section className="bg-header-gradient h-max lg:h-screen">
+        <section className="bg-header-gradient h-max lg:h-screen backdrop-blur-xl">
           <div className="w-full h-full flex justify-center items-center">
             <div className="flex flex-col gap-6 px-4 md:px-6 lg:px-12">
               <h1 className="text-foreground text-4xl font-black">
@@ -43,7 +44,9 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <div className="h-max lg:min-h-screen">right content</div>
+        <div className="h-max lg:min-h-screen">
+          <RightSection />
+        </div>
       </div>
     </main>
   );

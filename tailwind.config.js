@@ -21,6 +21,9 @@ module.exports = {
       gridTemplateColumns: {
         container: "minmax(820px, 880px) 1fr",
       },
+      fontSize: {
+        h1: "2rem",
+      },
       fontFamily: {
         inter: ["Inter", "var(--font-fallback)"],
       },
